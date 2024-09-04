@@ -1,0 +1,49 @@
+.description__content__container__userDropdown {
+  width: 100% !important;
+}
+
+.description__content__container__dropDown__container {
+  position: relative;
+  width: 100% !important;
+
+  button {
+    height: 36px;
+    width: 100%;
+    background-color: rgb(247, 247, 236);
+    border-radius: 4px;
+    border: 1px solid gray;
+    font-size: 18px;
+    color: var(--background);
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  button:hover {
+    background-color: var(--second);
+    color: var(--background);
+  }
+}
+
+.description__content__container__dropDown__list {
+  display: flex;
+  width: 100% !important;
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  flex-direction: column;
+  visibility: visible;
+  position: absolute;
+
+  button {
+    height: 32px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 0px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    font-size: 18px;
+  }
+}

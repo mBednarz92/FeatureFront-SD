@@ -1,0 +1,115 @@
+.homeDescriptionSection {
+  width: 100%;
+  height: 505px;
+
+  border-radius: 8px;
+
+  margin-top: 3px;
+  background-color: var(--third);
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    color: var(--second);
+  }
+
+  p {
+    text-align: center;
+    color: #acb0b3;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
+
+.currentRequestHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 60px;
+}
+
+.currentRequest__table__nameField {
+  width: 50% !important;
+  justify-content: left !important;
+
+  p {
+    text-align: left !important;
+  }
+}
+
+.currentRequest__table__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--second);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  div {
+    width: 40%;
+    height: 40px;
+    justify-content: center;
+
+    display: flex;
+    align-items: center;
+
+    p {
+      text-align: center;
+      font-weight: bold;
+      color: var(--text);
+      margin: 5px !important;
+    }
+  }
+}
+
+.currentRequest__table__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  background-color: white;
+
+  div {
+    width: 40%;
+    height: 40px;
+    justify-content: center;
+
+    border-bottom: 1px solid #bdc2c5;
+    display: flex;
+    align-items: center;
+
+    p {
+      text-align: center;
+      color: var(--third);
+      margin: 5px !important;
+    }
+  }
+}
+
+.currentRequest__table__row:hover {
+  background-color: rgb(248, 241, 223);
+}
+
+.currentRequest__table__dateField {
+  width: 20% !important;
+}
+
+.rows__container {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  height: 80%;
+}
+
+.currentRequest__table__idField {
+  width: 10% !important;
+  justify-content: left !important;
+  padding-left: 20px;
+
+  p {
+    text-align: left !important;
+  }
+}

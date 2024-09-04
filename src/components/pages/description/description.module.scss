@@ -1,0 +1,125 @@
+.main__header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 60%;
+
+  h2 {
+    color: var(--second);
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    text-align: justify;
+    color: var(--text);
+    font-size: 20px;
+  }
+}
+
+.description__content__container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-between;
+
+  div {
+    width: 100%;
+
+    h3 {
+      color: var(--second);
+      margin-bottom: 5px;
+      font-size: 1.3em;
+    }
+
+    input {
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid gray;
+    }
+
+    textarea {
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 200px;
+      height: 32px;
+      border-radius: 4px;
+      border: 1px solid gray;
+    }
+  }
+}
+
+.description__content__container__requestHeadline {
+  width: 100%;
+}
+
+.dropzone {
+  height: 160px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: var(--text);
+  border-style: dashed;
+  background-color: transparent;
+  color: var(--text);
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+  &:hover,
+  &::after {
+    border-width: 2px;
+    border-style: dashed;
+    background-color: #444444;
+    opacity: 0.7;
+  }
+
+  p {
+    text-align: center;
+    cursor: pointer;
+    color: var(--text);
+  }
+}
+
+.addedFillesText {
+  font-weight: bold;
+  color: var(--text);
+}
+
+.dropBoxIconWrapper {
+  height: 60px;
+  width: 60px;
+  color: var(--text);
+
+  * {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.validationMessage {
+  position: relative;
+  color: rgb(241, 91, 91);
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+ul {
+  color: var(--text);
+}
+
+.input__described__dole {
+  margin: 30px 0 15px;
+  width: 28%;
+}

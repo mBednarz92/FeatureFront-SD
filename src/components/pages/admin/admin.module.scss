@@ -1,0 +1,44 @@
+.main__header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 100%;
+
+  h2 {
+    color: var(--second);
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    text-align: center;
+    color: var(--text);
+  }
+}
+
+.main__content__container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.person__wraper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+
+  width: 100% !important;
+  height: fit-content;
+  padding: 5px;
+}
+
+span {
+  color: rgb(241, 91, 91);
+}

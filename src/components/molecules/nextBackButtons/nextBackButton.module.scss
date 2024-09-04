@@ -1,0 +1,35 @@
+.requestButtonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 40%;
+  margin-bottom: 60px;
+
+  button {
+    height: 32px;
+    padding: 0.9em 2em;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+}
+
+.requestNextButton {
+  background-color: var(--second);
+  color: var(--background);
+}
+
+.requestBackButton {
+  background-color: #71787d;
+  color: white;
+}
